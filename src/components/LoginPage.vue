@@ -22,7 +22,7 @@ function submitForm() {
 
       <button type="submit">Войти</button>
       <p v-if="message" class="message">{{ message }}</p>
-      <p>Нет аккаунта? <a href="#/register">Зарегистрироваться</a></p>
+      <p>Нет аккаунта? <RouterLink to="/register">Зарегистрироваться</RouterLink></p>
     </form>
   </main>
 </template>

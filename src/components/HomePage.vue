@@ -3,7 +3,7 @@
     <section class="intro">
       <h1>Quiz Survival</h1>
       <p>Отвечайте на вопросы, проходите мини-игры и соревнуйтесь с друзьями!</p>
-      <a class="button" href="#/quizzes">Выбрать викторину</a>
+      <RouterLink class="button" to="/quizzes">Выбрать викторину</RouterLink>
     </section>
 
     <section class="cards">

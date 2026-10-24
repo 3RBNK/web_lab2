@@ -12,7 +12,7 @@ function submitForm() {
     message.value = 'Пароли не совпадают.'
     return
   }
-  message.value = 'Форма заполнена. Регистрация в этой лабораторной не предусмотрена.'
+  message.value = 'Форма заполнена.'
 }
 </script>
 
@@ -34,7 +34,7 @@ function submitForm() {
 
       <button type="submit">Зарегистрироваться</button>
       <p v-if="message" class="message">{{ message }}</p>
-      <p>Уже есть аккаунт? <a href="#/login">Войти</a></p>
+      <p>Уже есть аккаунт? <RouterLink to="/login">Войти</RouterLink></p>
     </form>
   </main>
 </template>
